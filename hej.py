@@ -1,1 +1,1 @@
-print("rösta örebropartiet")
+print("om du klagar på nya gta trailern så är du mongo")
