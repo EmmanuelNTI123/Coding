@@ -11,14 +11,14 @@ meny = "Meny:\n\t1. Starta\n\t2. Avsluta" #Escape-sekvenser (\n, \t)
 print (meny)
 filsokvag = r"C:\ny_mapp\test.txt" #Raw Strings (r-prefix)
 print (filsokvag)
-pris=3
+pris=3 #Formatted String Literals (f-strings)
 print(f'Totalt pris: {pris:.2f} kr')
 intstruktion = """Välkommen! idag ska vi lära oss att programmera i Python""" #Flerradiga strängar (""")
 print (intstruktion)
-t4 = "Spelade \u2665 Ess"
+t4 = "Spelade \u2665 Ess" #Hex \u kod
 print (t4)
-print("\N{DOLLAR SIGN}")
-print(chr(65))
+print("\N{DOLLAR SIGN}") #Namngivna \N
+print(chr(65)) #chr() & ord()
 ord = "Katt"
 ord[0]
 ord[-1]
