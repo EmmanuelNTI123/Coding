@@ -1,6 +1,7 @@
 # räkna blanka tecken, version 1
 s=input("Skriv en text: ")
 n=0
+print(len(s))
 for i in range(0, len(s)):
     if s[i] == " ":
         n=n+1
